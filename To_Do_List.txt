@@ -1,0 +1,25 @@
+Task# 1: Subject: Swimmimg
+		 Description: 1 Hour swimming lesson
+		 Date: Friday, Jul 22, 2022
+		 Start Time: 10:55 AM
+		 Location: Sports Arena
+		This Task Has Not Been Done
+
+===============================================================
+Task# 2: Subject: GYM
+		 Description: legs workout
+		 Date: Friday, Jul 22, 2022
+		 Start Time: 11:30 AM
+		 Location: Street 10,Gym
+		This Task Has Been Done
+
+===============================================================
+Task# 3: Subject: Maths Lecture
+		 Description: 2 Hour maths class
+		 Date: Friday, Jul 22, 2022
+		 Start Time: 02:00 AM
+		 Location: College,5th street main avenue
+		This Task Has Not Been Done
+
+===============================================================
+

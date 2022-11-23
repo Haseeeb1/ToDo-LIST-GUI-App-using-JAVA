@@ -1,0 +1,10 @@
+OOP Assignment|To Do List|11-06-2022|18:00|LMS|false
+Oht|Linear Algebra|15-06-2022|9:00|Qasid Complex|false
+CA & DLD|Assignment|13-06-2022|12:30|CR 33|false
+Dinner|college get together|04-06-2022|20:00|Food Street|false
+Archery| |10-06-2022|16:00|Mangla|false
+Class Trip|First Trip|03-06-2022|6:00|Murree|false
+gym|go|08-07-2022|11:56|23|false
+GYM|legs workout|22-07-2022|11:30|Street 10,Gym|false
+Swimmimg|1 Hour swimming lesson|22-07-2022|10:55 am|Sports Arena|false
+Maths Lecture|2 Hour maths class|22-07-2022|2:00 pm|College,5th street main avenue|false

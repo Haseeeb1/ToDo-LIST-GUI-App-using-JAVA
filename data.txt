@@ -1,0 +1,3 @@
+Swimmimg|1 Hour swimming lesson|22-07-2022|10:55 am|Sports Arena|false
+GYM|legs workout|22-07-2022|11:30|Street 10,Gym|true
+Maths Lecture|2 Hour maths class|22-07-2022|2:00 pm|College,5th street main avenue|false

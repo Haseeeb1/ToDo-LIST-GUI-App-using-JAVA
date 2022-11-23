@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="299.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.todolist.emailController">
+   <children>
+      <ImageView fitHeight="210.0" fitWidth="486.0" layoutY="90.0" opacity="0.92" pickOnBounds="true">
+         <image>
+            <Image url="@..\images\blackbg.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="252.0" layoutY="249.0" mnemonicParsing="false" onAction="#sendEmail" prefHeight="16.0" prefWidth="94.0" style="-fx-background-color: white; -fx-background-radius: 10;" styleClass="buttons" text="Send Email" textFill="#080970" AnchorPane.leftAnchor="252.0">
+         <font>
+            <Font name="Simplex_IV50" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="31.0" layoutY="109.0" prefHeight="20.0" prefWidth="129.0" styleClass="labels" text="Your Email Address" textFill="#f5fe00">
+         <font>
+            <Font name="Bodoni MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="155.0" styleClass="labels" text="Password" textFill="#f5fe00">
+         <font>
+            <Font name="Bodoni MT Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="207.0" styleClass="labels" text="Recievers Email" textFill="#f5fe00">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField id="senderAddress" fx:id="senderAddress" layoutX="169.0" layoutY="104.0" prefHeight="30.0" prefWidth="216.0" promptText="e.g abc@gmail.com" styleClass="txtFields">
+         <font>
+            <Font name="Rockwell Condensed" size="14.0" />
+         </font>
+      </TextField>
+      <TextField id="recieverAddress" fx:id="recieverAddress" layoutX="169.0" layoutY="204.0" prefHeight="30.0" prefWidth="216.0" promptText="e.g abc@gmail.com" styleClass="txtFields">
+         <font>
+            <Font name="Rockwell Condensed" size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField id="password" fx:id="password" layoutX="169.0" layoutY="151.0" prefHeight="30.0" prefWidth="216.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="errorLable" layoutX="262.0" layoutY="181.0" prefHeight="16.0" prefWidth="129.0" text="Invalid Email or Password" textFill="#00ff2a">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="486.0" opacity="0.58" pickOnBounds="true">
+         <image>
+            <Image url="@..\images\yellow1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="137.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-mail-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="168.0" layoutY="34.0" prefHeight="19.0" prefWidth="136.0" text="Share your daily plans," textFill="#002aff">
+         <font>
+            <Font name="Mongolian Baiti" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="49.0" prefHeight="17.0" prefWidth="147.0" text=" directly through Email." textFill="#002aff">
+         <font>
+            <Font name="Mongolian Baiti" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.0" fitWidth="30.0" layoutX="224.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-mail-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="462.0" layoutY="67.0" opacity="0.63" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-popup-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="11.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-sender-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="34.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-forgot-password-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="14.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\images\icons8-macbook-mail-100.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
