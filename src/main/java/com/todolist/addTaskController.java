@@ -21,8 +21,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Background;
 
 public class addTaskController implements Initializable {
-
-
     @FXML
     private Label Date_time_label;
 
